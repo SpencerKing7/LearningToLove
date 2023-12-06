@@ -3,3 +3,28 @@
     padding-top: 5px;
     text-decoration-color: white;
 }
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    a, h2, h3 {
+        color: white;
+    }
+
+    h1 {
+        color: black;
+    }
+}
