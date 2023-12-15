@@ -4,6 +4,29 @@
     text-decoration-color: white;
 }
 
+.bottom-header {
+    position: relative;
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 900;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    bottom: 0;
+}
+.bottom-subheader {
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    padding-bottom: 1rem;
+    font-style: italic;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
 /* Light mode */
 @media (prefers-color-scheme: light) {
     body {
