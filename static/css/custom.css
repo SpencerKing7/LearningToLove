@@ -1,6 +1,6 @@
 .icon {
-    padding-left: 6px;
-    padding-top: 5px;
+    padding-right: 18px;
+    /* padding-top: 5px; */
     text-decoration-color: white;
 }
 
@@ -9,7 +9,17 @@
     width: 100%;
     font-size: 4rem;
     font-weight: 900;
-    opacity: 0.8;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    bottom: 0;
+}
+.other-header {
+    position: relative;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 900;
+    opacity: 0.9;
     text-align: center;
     color: white;
     bottom: 0;
@@ -24,7 +34,11 @@
     padding-bottom: 1rem;
     font-style: italic;
     font-weight: 700;
-    opacity: 0.8;
+    opacity: 0.9;
+}
+
+.footer-date {
+    font-style: italic;
 }
 
 /* Light mode */
@@ -39,7 +53,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
+        background-color: #1E1E1E;
         color: white;
     }
 
@@ -48,6 +62,6 @@
     }
 
     h1 {
-        color: black;
+        color: white;
     }
 }
