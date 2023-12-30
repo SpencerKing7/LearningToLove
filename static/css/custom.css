@@ -4,6 +4,10 @@
     text-decoration-color: white;
 }
 
+.icon:last-child {
+    padding: 0;
+}
+
 .bottom-header {
     position: relative;
     width: 100%;
