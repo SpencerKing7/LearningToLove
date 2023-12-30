@@ -11126,7 +11126,23 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  background-image: url('../img/familyMain.jpg');
 }
+
+@media (max-width: 500px) {
+  header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(6rem + 57px);
+    padding-bottom: 1rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url('../img/tallFamily.jpg');
+  }
+}
+
 header.masthead:before {
   content: "";
   position: absolute;
