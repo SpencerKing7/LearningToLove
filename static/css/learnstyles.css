@@ -11133,8 +11133,8 @@ header.masthead {
   header.masthead {
     position: relative;
     margin-bottom: 3rem;
-    padding-top: calc(6rem + 57px);
-    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: calc(8rem + 57px);
     background: no-repeat center center;
     background-color: #6c757d;
     background-size: cover;

@@ -11,13 +11,27 @@
 .bottom-header {
     position: relative;
     width: 100%;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 900;
     opacity: 0.9;
     text-align: center;
     color: white;
     bottom: 0;
     padding-top: 6rem;
+}
+
+@media (max-width: 500px) {
+    .bottom-header {
+        width: 100%;
+        font-size: 4rem;
+        font-weight: 900;
+        opacity: 0.9;
+        text-align: center;
+        color: white;
+        bottom: 0;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
 }
 .other-header {
     position: relative;
