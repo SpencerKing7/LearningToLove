@@ -54,10 +54,10 @@
         rgba(0, 0, 0, 0.3) 100%
       ),
       url("../img/tallFamily.jpg");
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: 100% auto;
   }
 
   .bottom-header {
