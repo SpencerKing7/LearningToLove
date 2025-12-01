@@ -4,8 +4,8 @@
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.3) 0%,
-      rgba(0, 0, 0, 0.7) 75%,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 75%,
       #212529 100%
     ),
     url("../img/familyMain.jpg");
@@ -49,8 +49,8 @@
     padding-bottom: 25rem;
     background: linear-gradient(
         to bottom,
-        rgba(0, 0, 0, 0.3) 0%,
-        rgba(0, 0, 0, 0.7) 75%,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.4) 75%,
         #212529 100%
       ),
       url("../img/tallFamily.jpg");
