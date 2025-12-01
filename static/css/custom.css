@@ -1,40 +1,66 @@
+/* Header background image styles */
+.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #212529 100%
+    ),
+    url("../img/familyMain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.bg-image-full {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .icon {
-    padding-right: 18px;
-    /* padding-bottom: 20px; */
-    text-decoration-color: white;
+  padding-right: 18px;
+  /* padding-bottom: 20px; */
+  text-decoration-color: white;
 }
 
 .icon:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 .bottom-header {
-    position: relative;
-    width: 100%;
-    font-size: 6rem;
-    font-weight: 900;
-    opacity: 0.9;
-    text-align: center;
-    color: white;
-    bottom: 0;
-    padding-top: 6rem;
+  position: relative;
+  width: 100%;
+  font-size: 6rem;
+  font-weight: 900;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  padding-top: 6rem;
 }
 
-@media (max-width: 500px) {
-    .bottom-header {
-        width: 100%;
-        font-size: 4rem;
-        font-weight: 900;
-        opacity: 0.9;
-        text-align: center;
-        color: white;
-        bottom: 0;
-        padding-top: 1rem;
-        padding-bottom: 3rem;
-    }
-}
-.other-header {
-    position: relative;
+@media (max-width: 768px) {
+  .masthead {
+    padding-top: 6rem;
+    padding-bottom: 25rem;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.7) 75%,
+        #212529 100%
+      ),
+      url("../img/tallFamily.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .bottom-header {
     width: 100%;
     font-size: 3rem;
     font-weight: 900;
@@ -42,45 +68,73 @@
     text-align: center;
     color: white;
     bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.other-header {
+  position: relative;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 900;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  bottom: 0;
 }
 .bottom-subheader {
-    position: relative;
-    width: 100%;
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-    bottom: 0;
-    padding-bottom: 1rem;
-    font-style: italic;
-    font-weight: 700;
-    opacity: 0.9;
+  position: relative;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  padding-bottom: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  opacity: 0.9;
 }
 
 .footer-date {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Light mode */
 @media (prefers-color-scheme: light) {
-    body {
-        background-color: white;
-        color: black;
-    }
-
+  body {
+    background-color: white;
+    color: black;
+  }
 }
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #253036;
-        color: white;
-    }
+  body {
+    background-color: #253036;
+    color: white;
+  }
 
-    a, h2, h3 {
-        color: white;
-    }
+  a,
+  h2,
+  h3 {
+    color: white;
+  }
 
-    h1 {
-        color: white;
-    }
+  h1 {
+    color: white;
+  }
+}
+
+/* Add spacing between paragraphs */
+p.mb-0 {
+  margin-bottom: 1rem !important;
+}
+
+/* Remove underline from post-subtitle h3 elements */
+.post-preview a {
+  text-decoration: none !important;
+}
+
+.post-preview a:hover .post-title {
+  text-decoration: underline !important;
 }
