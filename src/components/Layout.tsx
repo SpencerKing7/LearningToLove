@@ -10,7 +10,7 @@ function Layout({ children }: LayoutProps) {
   return (
     <>
       <Navbar />
-      <main style={{ flex: '1 0 auto' }}>
+      <main style={{ flex: '1 0 auto', backgroundColor: 'inherit' }}>
         {children}
       </main>
       <Footer />

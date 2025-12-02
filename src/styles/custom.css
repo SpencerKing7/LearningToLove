@@ -12,6 +12,11 @@ body {
   min-height: 100vh;
 }
 
+footer {
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
 /* Header background image styles */
 .masthead {
   padding-top: 10rem;
@@ -116,6 +121,7 @@ body {
 
 /* Light mode */
 @media (prefers-color-scheme: light) {
+  html,
   body {
     background-color: white;
     color: black;
@@ -124,6 +130,7 @@ body {
 
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
+  html,
   body {
     background-color: #253036;
     color: white;
