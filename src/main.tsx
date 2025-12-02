@@ -8,7 +8,7 @@ import './styles/custom.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/LearningToLove">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
