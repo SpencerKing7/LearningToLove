@@ -1,0 +1,153 @@
+/* Header background image styles */
+.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 75%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("/home-header-family-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.bg-image-full {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icon {
+  padding-right: 18px;
+  text-decoration-color: white;
+}
+
+.icon:last-child {
+  padding-right: 0;
+}
+
+.bottom-header {
+  position: relative;
+  width: 100%;
+  font-size: 6rem;
+  font-weight: 900;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  padding-top: 6rem;
+}
+
+@media (max-width: 768px) {
+  .masthead {
+    padding-top: 6rem;
+    padding-bottom: 15rem;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 75%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      url("/home-header-family-mobile.jpg");
+    background-position: center 70%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .bottom-header {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 900;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.other-header {
+  position: relative;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 900;
+  opacity: 0.9;
+  text-align: center;
+  color: white;
+  bottom: 0;
+}
+
+.bottom-subheader {
+  position: relative;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  bottom: 0;
+  padding-bottom: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.footer-date {
+  font-style: italic;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #253036;
+    color: white;
+  }
+
+  a,
+  h2,
+  h3 {
+    color: white;
+  }
+
+  h1 {
+    color: white;
+  }
+}
+
+/* Add spacing between paragraphs */
+p.mb-0 {
+  margin-bottom: 1rem !important;
+}
+
+/* Paragraph links - bold and underlined, not blue */
+p a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p a:hover {
+  opacity: 0.8;
+}
+
+/* Learn More page links - normal text color, not blue */
+.post-preview a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.post-preview a:hover .post-title {
+  text-decoration: underline !important;
+}
