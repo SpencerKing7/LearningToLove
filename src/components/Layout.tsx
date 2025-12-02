@@ -8,11 +8,13 @@ interface LayoutProps {
 
 function Layout({ children }: LayoutProps) {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Navbar />
-      {children}
+      <main style={{ flex: '1' }}>
+        {children}
+      </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
