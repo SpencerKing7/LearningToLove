@@ -8,11 +8,21 @@
     <style>
       /* Critical CSS to prevent white space on iOS Safari */
       html {
+        height: 100%;
         height: -webkit-fill-available;
       }
       body {
         min-height: 100vh;
         min-height: -webkit-fill-available;
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+      #root {
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
       }
     </style>
     <!-- Font Awesome -->
