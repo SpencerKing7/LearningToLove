@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist && git add -A && git commit -m 'Deploy updates' && git push",
+    "deploy": "gh-pages -d dist && ./scripts/generate-commit-message.sh > /tmp/commit-msg.txt && git add -A && git commit -F /tmp/commit-msg.txt && git push && rm /tmp/commit-msg.txt",
     "deploy-only": "gh-pages -d dist"
   },
   "dependencies": {
