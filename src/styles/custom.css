@@ -4,17 +4,24 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: #253036; /* Default dark background */
 }
 
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-height: -webkit-fill-available; /* iOS Safari fix */
 }
 
 footer {
   margin-top: auto;
   flex-shrink: 0;
+  width: 100%;
 }
 
 /* Header background image styles */
@@ -123,7 +130,7 @@ footer {
 @media (prefers-color-scheme: light) {
   html,
   body {
-    background-color: white;
+    background-color: white !important;
     color: black;
   }
 }
@@ -132,7 +139,7 @@ footer {
 @media (prefers-color-scheme: dark) {
   html,
   body {
-    background-color: #253036;
+    background-color: #253036 !important;
     color: white;
   }
 
