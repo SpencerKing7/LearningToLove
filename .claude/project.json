@@ -1,0 +1,4 @@
+{
+  "name": "LearningToLove",
+  "verify": "npm run build"
+}
