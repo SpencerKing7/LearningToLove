@@ -1,4 +1,5 @@
 {
   "name": "LearningToLove",
+  "defaultBranch": "main",
   "verify": "npm run build"
 }
