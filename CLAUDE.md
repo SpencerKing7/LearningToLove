@@ -13,7 +13,7 @@ https://www.spencerking7.com.
 - `static/`, `public/` — assets carried over from the original site
 - `scripts/generate-commit-message.sh` — used by `npm run deploy`
 - `dist/` — build output, published to `gh-pages`
-- Work items live in `backlog/{ready,active,done}/`
+- Work items live in Linear (project `Learning To Love`); use `/backlog`
 
 ## Commands
 
