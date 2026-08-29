@@ -1,5 +1,6 @@
 {
   "name": "LearningToLove",
   "defaultBranch": "main",
+  "linearProject": "Learning To Love",
   "verify": "npm run build"
 }
